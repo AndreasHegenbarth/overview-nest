@@ -28,6 +28,13 @@ export class ItemsService {
       description: 'Informative',
       image: 'https://cdn.auth0.com/blog/whatabyte/tea-sm.png',
     },
+    4: {
+      id: 4,
+      name: 'Coke',
+      price: 2.99,
+      description: 'Informative',
+      image: 'https://cdn.auth0.com/blog/whatabyte/tea-sm.png',
+    },
   };
 
   findAll(): Items {
